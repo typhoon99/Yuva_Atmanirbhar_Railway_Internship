@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{padding: 0; margin: 0; list-style-type: none; font-family: 'Poppins', sans-serif;}
+p,h2,h2,h3,h4,h5,h6{padding: 0; margin: 0}
+.mainTopDiv{width: 100%; float: left; padding-top: 15px}
+.headerIn{width: 100%; float: left;}
+.logoLst .logomainIn{text-align: right;}
+.logoCntr .logomainIn{text-align: center;}
+.hmSliderSec{width: 100%; float: left; margin-top: 15px}
+.abtDocPrtlSec{width: 100%; float: left; padding: 45px 0}
+.abtDiv a{width: 100%; float: left; overflow: hidden;-webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+.abtDivIn{width: 100%; float: left; position: relative; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; -webkit-transition:all 0.5s; -moz-transition:all 0.5s; transition:all 0.5s; overflow: hidden;}
+.abtDivIn:hover{ }
+.abtDivIn img{width: 100%;-webkit-transition:all 0.5s; -moz-transition:all 0.5s; transition:all 0.5s;}
+.abtDivIn img:hover{transform: scale(1.2);-webkit-transition:all 0.5s; -moz-transition:all 0.5s; transition:all 0.5s;}
+.abtDivIn h2{text-align: center;}
+.abtDiv a .abtDivIn h2{color: #fff; font-weight: 600; font-size: 38px}
+.abtDivTxt h2{position: absolute; top: 0; bottom: 0; width: auto; text-align: center; height: 30px; margin: auto; left: 0; right: 0; display: inline-block;}
+.abtDiv{margin-bottom: 25px}
+.contactUsSec{width: 100%; float: left; padding: 35px 0}
+.contactUsSecIn{width: 100%; float: left; text-align: center;}
+.contactUsSecIn h1{color: #ff604a; font-size: 42px; margin-bottom: 15px}
+.contactUsSecIn p{padding: 0 130px; font-size: 22px; font-weight: 400; color:#636363; line-height: 28px}
+.footerIn{width: 100%; float: left; background: #ff604a; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; padding: 25px 15px}
+.ftrLnkOneIn h2{color: #fff; font-size: 20px; margin-bottom: 8px; line-height: 28px}
+.ftrLnkOneIn p{color: #fff; font-size: 18px; font-weight: 300; margin-bottom: 8px}
+.ftrLnkOneIn p a{color: #fff; font-size: 17px; font-weight: 300; text-decoration: none;}
+.ftrLnkScnd .ftrLnkOneIn{margin-top: 75px; text-align: center;}
+.ftrLnkOneIn p a.socialIcnFtr{font-size: 32px}
+.innerSldrSec{width: 100%; float: left;}
+.innerSldrSec img{width: 100%}
+.abutInnersec{width: 100%; float: left; padding: 45px 0}
+.abtHdngDiv{width: 100%; float: left; text-align: center;}
+.abtHdngDiv h1{font-size: 38px; text-transform: uppercase; color: #ff604a; border-bottom: 2px solid #ff604a; padding-bottom: 45px}
+.abtHdngDiv h2{font-size: 38px; text-transform: uppercase; color: #ff604a; padding-bottom: 45px; margin-top: 45px}
+.abtInrCntTp{width: 100%; float: left; margin-top: 175px}
+.abtInrCntTp .mantriJioneIn{width: 100%; float: left; border:4px solid #0088fe; padding: 25px; text-align: center;}
+.mantriJiImg{width: 100%; float: left;}
+.mantriJiImgIn{width: 70%; display: inline-block; margin-top: -125px; background: #fff; -webkit-border-radius:20px; -moz-border-radius:20px; border-radius: 20px; -webkit-box-shadow: 0px 6px 4px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 6px 4px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 6px 4px 0px rgba(50, 50, 50, 0.5);}
+.mantriJiTxt{width: 100%; float: left; padding-top: 35px}
+.mantriJiTxt h2{color: #fa624b; font-weight: 600; padding-bottom: 45px}
+.mantriJiTxt p{color: #636363; font-weight: 400; font-size: 20px; text-align: justify;}
+.jointStrCmtDiv{width: 100%; float: left; margin-top: 105px}
+.compSterCmtDiv{width: 100%; float: left; margin-top: 75px}
+.compSterCmtHdng{width: 100%; float: left; background: #146696; padding: 25px 0; text-align: center; color: #fff; font-size: 30px; font-weight: 600}
+.compSterCmtLst{width: 100%; float: left;}
+.compSterCmtLst ul{padding: 0; margin: 0; list-style-type: none;}
+.compSterCmtLst ul li{width: 100%; float: left; padding: 15px 0; text-align: center; background: #72a3c1; color: #fff; margin-bottom: 15px; font-size: 27px; font-weight: 600}
+.compSterCmtLst ul li:nth-child(1){margin-top: 5px}
+.compSterCmtLst ul li:nth-child(2n+2){background: #ff9f91}
+
+/* Code Added by Pushkar */
+.img{padding: 100px 0px;}
+.visionSec{width: 100%; float: left; padding: 35px 0}
+.visionSecIn{width: 100%; float: left; text-align: center;}
+.visionSecIn h1{color: #ff604a; font-size: 42px; margin-bottom: 15px}
+.visionSecIn p{padding: 30px 20px; font-size: 22px; font-weight: 400; color:#636363; line-height: 28px; text-align: justify;}
+/* Structure Section*/
+.structureSec{width: 100%; float: left; padding: 35px 0}
+.structureSecIn{width: 100%; float: left; text-align: center;}
+.structureSecIn h1{color: #ff604a; font-size: 42px; margin-bottom: 15px}
+.structureSecIn p{padding: 30px 20px; font-size: 22px; font-weight: 400; color:#636363; line-height: 28px; text-align: justify;}
+/* Role of Stakeholders Section*/
+.roleSec{width: 100%; float: left; padding: 35px 0}
+.roleSecIn{width: 100%; float: left; text-align: center;}
+.roleSecIn h1{color: #ff604a; font-size: 42px; margin-bottom: 15px}
+.roleSecIn p{padding: 30px 20px; font-size: 22px; font-weight: 400; color:#636363; line-height: 28px; text-align: justify;}
