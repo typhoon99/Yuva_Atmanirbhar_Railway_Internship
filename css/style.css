@@ -9,7 +9,6 @@ p,h2,h2,h3,h4,h5,h6{padding: 0; margin: 0}
 .abtDocPrtlSec{width: 100%; float: left; padding: 45px 0}
 .abtDiv a{width: 100%; float: left; overflow: hidden;-webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
 .abtDivIn{width: 100%; float: left; position: relative; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; -webkit-transition:all 0.5s; -moz-transition:all 0.5s; transition:all 0.5s; overflow: hidden;}
-.abtDivIn:hover{ }
 .abtDivIn img{width: 100%;-webkit-transition:all 0.5s; -moz-transition:all 0.5s; transition:all 0.5s;}
 .abtDivIn img:hover{transform: scale(1.2);-webkit-transition:all 0.5s; -moz-transition:all 0.5s; transition:all 0.5s;}
 .abtDivIn h2{text-align: center;}
@@ -66,3 +65,134 @@ box-shadow:         0px 6px 4px 0px rgba(50, 50, 50, 0.5);}
 .roleSecIn{width: 100%; float: left; text-align: center;}
 .roleSecIn h1{color: #ff604a; font-size: 42px; margin-bottom: 15px}
 .roleSecIn p{padding: 30px 20px; font-size: 22px; font-weight: 400; color:#636363; line-height: 28px; text-align: justify;}
+.prgrmPlatfrmDiv{width: 100%; float: left; margin-top: 95px}
+.prgrmMangDiv{width: 60%; float: left; height: 350px; background: #146696; padding: 45px;}
+.prgrmMangDiv h2{color: #fff; font-size: 42px; font-weight: 600}
+.prgrmMangDiv p{color: #fff; font-size: 30px; font-weight: 400; padding-top: 25px; padding-right: 105px}
+.pltfrmManDiv{float: right; background: #ff604a; position: relative; z-index: 1; margin-top: -105px}
+.roleStackDiv{width: 100%; float: left; margin-top: 230px; position: relative; height: 400px; margin-left: -8px}
+.rolestk{width: 24%; float: left; position: absolute; background: url(../images/stackOrng.png) no-repeat; height: 244px; background-size: cover; text-align: center;}
+._r1{left: 16px}
+._r2{top: -126px; left: 230px;}
+._r3{top: 125px; left: 228px; background: url(../images/stackBlue.png) no-repeat; background-size: cover;}
+._r4{left: 442px;}
+._r5{left: 654px; top: -125px;}
+._r6{top: 126px; left: 655px; background: url(../images/stackBlue.png) no-repeat; background-size: cover;}
+._r7{top: 0px; right: 0;}
+.rolestk h2{color: #fff; font-weight: 600; font-size: 22px; padding-top: 60px; padding-bottom: 6px;}
+.rolestk p{color: #fff;}
+.rolestk._r6 h2{padding-top: 14px}
+.rolestk._r6 p{font-size: 13px}
+.rolestk._r3 h2{padding-top: 52px}
+.outComeSec p strong{color: #146696; font-weight: 600}
+.mnstrCrTm{width: 100%; float: left; text-align: left;}
+.mnstrCrTm{margin-top: 75px}
+.mnstrCrTm h2{color: #ff604a; padding-bottom: 20px}
+.mnStrMainHdng{font-weight: 600}
+.mnstrCrTm ul{padding: 0 0 0 20px; margin: 0;}
+.mnstrCrTm ul li{padding: 5px 0; font-size: 22px}
+
+@media only screen and (max-width: 767px){
+	.logomain{padding: 0; margin: 0}
+	.logoFrst{width: 20%}
+	.logoFrst img{width: 100%}
+	.logoCntr{width: 30%}
+	.logoCntr img{width: 72%!important}
+	.logoLst{width: 50%}
+	.logoLst img{width: 100%; position: relative; top: 14px;}
+	.abtDiv a .abtDivIn h2{font-size: 23px}
+	.abtDocPrtlSec{padding-bottom: 0}
+	.contactUsSec{padding: 15px 0 35px;}
+	.contactUsSecIn p{padding: 0 10px; font-size: 19px}
+	.ftrLnkScnd .ftrLnkOneIn{margin-top: 15px; text-align: left; margin-bottom: 15px}
+	.footerIn{-webkit-border-radius:0px; -moz-border-radius:0px; border-radius: 0px}
+	/*inner-page*/
+	.innerSldrSec{margin-top: 15px}
+	.abutInnersec{padding: 20px 0;}
+	.mantriJiImgIn{width: 100%}
+	.mantriJiImgIn img{width: 100%}
+	.mantriJiTxt h2{font-size: 18px; padding-bottom: 20px}
+	.mantriJiTxt p{font-size: 17px}
+	.mantriJoTwo{margin-top: 150px}
+	.jointStrCmtDiv{margin-top: 10px; padding: 0 10px}
+	.abtHdngDiv h2{font-size: 22px}
+	.compSterCmtDiv{margin-top: 0}
+	.compSterCmtHdng{font-size: 18px}
+	.compSterCmtLst ul li{font-size: 18px}
+	.prgrmPlatfrmDiv{margin-top: 30px;}
+	.prgrmMangDiv{width: 100%}
+	.pltfrmManDiv{margin-top: 15px;}
+	.prgrmMangDiv h2{font-size: 25px}
+	.prgrmMangDiv p{padding-right: 0;font-size: 22px;}
+	.prgrmMangDiv{height: 234px}
+	.visionSec{padding: 15px 0}
+	.visionSecIn h1, .structureSecIn h1, .roleSecIn h1, .contactUsSecIn h1{font-size: 22px}
+	.visionSecIn p, .structureSecIn p{font-size: 17px}
+	.mnstrCrTm{margin-top: 35px}
+	.teamInSec{padding: 0 15px}
+	.mnstrCrTm h2{font-size: 20px}
+	.mnstrCrTm ul li{font-size: 19px}
+	.rolestk{position: relative;}
+	.rolestk{width: 100%; height: 304px; margin-bottom: 15px}
+	.roleStackDiv{height: auto; margin-top: 60px}
+	._r1, ._r2, ._r3, ._r4, ._r5, ._r6, ._r7{left: 0; top: 0;}
+	.roleSec{padding: 0}
+	.rolestk._r1 h2{padding-top: 83px}
+	.rolestk._r1 p{padding: 0 25px}
+	.rolestk._r4 h2{padding-top: 90px}
+	.rolestk._r5 h2{padding-top: 92px}
+	.rolestk._r7 h2{padding-top: 82px}
+	.rolestk._r6 h2{padding-top: 57px}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.logomain{padding: 0; margin: 0}
+	.logoFrst{width: 20%}
+	.logoFrst img{width: 100%}
+	.logoCntr{width: 30%}
+	.logoCntr img{width: 72%!important}
+	.logoLst{width: 50%}
+	.logoLst img{width: 100%; position: relative; top: 14px;}
+	.abtDiv a .abtDivIn h2{font-size: 23px}
+	.abtDocPrtlSec{padding-bottom: 0}
+	.contactUsSec{padding: 15px 0 35px;}
+	.contactUsSecIn p{padding: 0 10px; font-size: 19px}
+	.ftrLnkScnd .ftrLnkOneIn{margin-top: 15px; text-align: left; margin-bottom: 15px}
+	.footerIn{-webkit-border-radius:0px; -moz-border-radius:0px; border-radius: 0px}
+	/*inner-page*/
+	.innerSldrSec{margin-top: 15px}
+	.abutInnersec{padding: 20px 0;}
+	.mantriJiImgIn{width: 100%}
+	.mantriJiImgIn img{width: 100%}
+	.mantriJiTxt h2{font-size: 18px; padding-bottom: 20px}
+	.mantriJiTxt p{font-size: 17px}
+	.mantriJoTwo{margin-top: 150px}
+	.jointStrCmtDiv{margin-top: 10px; padding: 0 10px}
+	.abtHdngDiv h2{font-size: 22px}
+	.compSterCmtDiv{margin-top: 0}
+	.compSterCmtHdng{font-size: 18px}
+	.compSterCmtLst ul li{font-size: 18px}
+	.prgrmPlatfrmDiv{margin-top: 30px;}
+	.prgrmMangDiv{width: 100%}
+	.pltfrmManDiv{margin-top: 15px;}
+	.prgrmMangDiv h2{font-size: 25px}
+	.prgrmMangDiv p{padding-right: 0;font-size: 22px;}
+	.prgrmMangDiv{height: 234px}
+	.visionSec{padding: 15px 0}
+	.visionSecIn h1, .structureSecIn h1, .roleSecIn h1, .contactUsSecIn h1{font-size: 22px}
+	.visionSecIn p, .structureSecIn p{font-size: 17px}
+	.mnstrCrTm{margin-top: 35px}
+	.teamInSec{padding: 0 15px}
+	.mnstrCrTm h2{font-size: 20px}
+	.mnstrCrTm ul li{font-size: 19px}
+	.rolestk{position: relative;}
+	.rolestk{width: 100%; height: 304px; margin-bottom: 15px}
+	.roleStackDiv{height: auto; margin-top: 60px}
+	._r1, ._r2, ._r3, ._r4, ._r5, ._r6, ._r7{left: 0; top: 0;}
+	.roleSec{padding: 0}
+	.rolestk._r1 h2{padding-top: 83px}
+	.rolestk._r1 p{padding: 0 25px}
+	.rolestk._r4 h2{padding-top: 90px}
+	.rolestk._r5 h2{padding-top: 92px}
+	.rolestk._r7 h2{padding-top: 82px}
+	.rolestk._r6 h2{padding-top: 57px}
+}
